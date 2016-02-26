@@ -37,7 +37,7 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  font: 400 100%/1.6 "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, sans-serif;
+  font: 400 100%/1.6 "Helvetica Neue", Helvetica, sans-serif;
   color: #999999;
   background-color:#f1f1f2;
   text-rendering: optimizeLegibility; }
@@ -103,7 +103,7 @@ img {
     	.main-wrapper { position:relative; max-width:1440px; margin:0 auto; } 
 	}
   
-.buy-button { border:none; background-color:#4ec99b; color:#FFFFFF; font-size:100%; width:140px; margin:0 auto; display:block; border-radius: 4px; cursor:pointer; padding:.5em 1em; margin-top:1em; margin-bottom:1.5em; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.buy-button { border:none; background-color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:130%; width:140px; margin:0 auto; display:block; border-radius: 4px; cursor:pointer; padding:.5em 1em; margin-top:1em; margin-bottom:1.5em; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .buy-button a {color:#FFFFFF; }
 .buy-button a:hover, .buy-button:hover { background-color:#292f33; color:#FFFFFF; }
 	
@@ -115,7 +115,7 @@ footer { position:relative; width:100%; display:block; }
 		footer {  } 
 	}
 	
-.twitter-wrap { display:block; width:197px; margin:auto; padding:1em 0 4em 0; }
+.twitter-wrap { display:block; width:160px; margin:auto; padding:1em 0 4em 0; }
 	
 .twitter-logo { display:inline; float:left; width:25px; }
-footer p { display:inline; float:left; padding: 0 0 0 .25em; color:#4ec99b;  }
+footer p { display:inline; float:left; padding: 0 0 0 .25em; color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; }
