@@ -77,45 +77,26 @@ nav,
 figure,
 li {
   position: relative; }
-
 /* For absolutely positioning elements within containers  */
-html {
-  background: #f1f1f2;}
 
-body {
-  padding: 0;
-  margin: 0; 
-  }
+html { background: #f1f1f2; }
 
-header { width:90%; margin:0 auto; position:relative; max-width:240px; }
+header { width:90%; margin:0 auto; position:relative; max-width:240px; text-align:center;}
 	@media screen and (min-width: 700px) {
 		header {  max-width:400px; } 
 	}
 
-img {
-  width: 100%;
-  height: auto;
-  display: block; }
-
+img { width: 100%; height: auto; display: block; }
 /* img { display:block; } This is to get rid of the weird, tiny 4px white space between the images horizontally */
-.main-wrapper { position: static; }
-  	@media screen and (min-width: 1440px) {
-    	.main-wrapper { position:relative; max-width:1440px; margin:0 auto; } 
-	}
   
-.buy-button { border:none; background-color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:130%; width:140px; margin:0 auto; display:block; border-radius: 4px; cursor:pointer; padding:.5em 1em; margin-top:1em; margin-bottom:1.5em; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
-.buy-button a {color:#FFFFFF; }
-.buy-button a:hover, .buy-button:hover { background-color:#292f33; color:#FFFFFF; }
-	
-
-
-
-footer { position:relative; width:100%; display:block; }
+.buy-button { background-color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:130%; text-decoration:none; margin:0 auto; display:inline-block; border-radius: 4px; cursor:pointer; padding:.5em 1em; margin-top:1em; margin-bottom:1.5em; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 	@media screen and (min-width: 700px) {
-		footer {  } 
+		.buy-button {  font-size:150%; } 
 	}
+
+.buy-button:hover { background-color:#292f33; }
 	
-.twitter-wrap { display:block; width:160px; margin:auto; padding:1em 0 4em 0; }
+.twitter-wrap { display:block; width:50px; margin:auto; padding:1em 0 2em 0; }
 	
-.twitter-logo { display:inline; float:left; width:25px; }
-footer p { display:inline; float:left; padding: 0 0 0 .25em; color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#twitter-logo { width:100%; fill:#55acee; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+#twitter-logo:hover { fill:#292f33; }
