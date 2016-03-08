@@ -100,7 +100,7 @@ img { width: 100%; height: auto; display: block; }
 
 .main-wrapper { position: static; }
   	@media screen and (min-width: 1500px) {
-    	.main-wrapper { position:relative; max-width:15010px; margin:0 auto; } 
+    	.main-wrapper { position:relative; max-width:1500px; margin:0 auto; } 
 	}
   
 .buy-button { background-color:#4ec99b; font-family:"Avenir Next LT W02SC Medium Cn", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:150%; display:inline-block; margin:0 auto; border-radius: 4px; cursor:pointer; padding:.2em .6em; margin-top:.5em; margin-bottom:1.5em; text-decoration:none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
